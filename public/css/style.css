@@ -1,0 +1,64 @@
+p {
+  margin: 10px 0 !important;
+}
+
+.login-container {
+  width: 400px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.bg-main {
+  background-color: salmon;
+  background-size: cover;
+}
+
+.fa-small {
+  font-size: 16px !important;
+}
+
+.btn-float {
+  float: left;
+  margin-right: 10px;
+}
+
+.img-small {
+  width: 180px;
+}
+
+.card-login {
+  background: linear-gradient(rgba(47, 27, 85, 0.562), rgba(99, 58, 177, 0.288));
+}
+
+.profile-img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  bottom: 2rem;
+  z-index: 1000;
+}
+
+.action-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.index-story {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+
+
+}
