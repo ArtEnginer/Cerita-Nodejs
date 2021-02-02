@@ -8,7 +8,7 @@ module.exports = function (passport) {
       {
         clientID: process.env.GOOGLE_CLIENT_ID = '36730593020-vhshdbg35rghfm4fg7duq5tmckhlor8a.apps.googleusercontent.com',
         clientSecret: process.env.GOOGLE_CLIENT_SECRET = 'KRGf-drnPJpYKoqwZZn_nJ7t',
-        callbackURL: '/auth/google/callback',
+        callbackURL: 'http://artenginer-cerita-nodejs.zeet.app/auth/google/callback',
       },
       async (accessToken, refreshToken, profile, done) => {
         const newUser = {
